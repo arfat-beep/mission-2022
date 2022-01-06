@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  margin-bottom: 100px;
+}
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+.flexible-container {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+}
+.half-section {
+  width: 40%;
+  margin-right: 5%;
+}
+.half-section img {
+  width: 70%;
+}
+.hero-hedding {
+  border-left: 5px solid;
+  border-image: linear-gradient(to top, red, green, blue);
+  border-image-slice: 1;
+  padding-left: 5%;
+  border-radius: 1%;
+}
+span {
+  color: orange;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 25px;
+  background-color: rgb(255, 99, 59);
+  border-radius: 5px;
+}
+.one-third {
+  width: 22%;
+  margin-right: 1%;
+  border-radius: 10px;
+  padding: 0 3%;
+}
+.one-third img {
+  width: 80%;
+}
+
+.one-fouth img {
+  border-radius: 50%;
+  width: 100%;
+}
+.one-third:nth-child(1) {
+  background-color: rgba(104, 174, 255, 0.658);
+}
+.one-third:nth-child(2) {
+  background-color: rgba(255, 174, 97, 0.808);
+}
+.one-third:nth-child(3) {
+  background-color: rgb(243, 108, 255);
+}
+.one-fouth {
+  width: 24%;
+  padding: 0 4%;
+  border-radius: 5px;
+  margin-right: 1.5%;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  padding: 3%;
+}
+footer h1 {
+  font-size: 2em;
+  font-family: "Lobster", cursive;
+}
+footer h1 span {
+  color: rgb(255, 82, 82);
+}
+footer p {
+  color: rgba(255, 255, 255, 0.534);
+}
